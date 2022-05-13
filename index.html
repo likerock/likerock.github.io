@@ -1,158 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mian page - Acme</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Quill</title>
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/solid.min.css"> -->
+    <script src="js/all.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap"
-        rel="stylesheet">
-
+    <meta property="og:title" content="Quill" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.quill.com" />
+    <meta property="og:image" content="https://www.quill.com/images/logo.png" />
+    <meta property="og:description" content="이사이트의 설명 문장" />
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
-        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!--
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-
 </head>
-
 <body>
-    <header class="content_sm_pd">
-        <div class="container cf">
-            <h1 class="logo"><a href="index.html">Acme</a></h1>
-            <input type="checkbox" id="toggle">
-            <label for="toggle">
-                <i class="fa-solid fa-bars toggle"></i>
-            </label>
-            
-            <nav>
-                <ul class="cf">
-                    <li>
-                        <a href="index.html">home</a><span>/</span><a href="about.html">about</a>
-                    </li>
-                    <li>
-                        <a href="signin.html" class="btn light_gray_bg light_gray_text">
-                            <i class="fa-solid fa-lock"></i>
-                            <!-- <img src="images/lock-solid.svg" alt="lock"> -->
-                            Sign in
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="signup.html" class="btn highlight_bg high_dark_text">Sign Up for free</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </div>
-    </header>
-    <section class="banner content_top_pd">
-        <h2 class="main_tt">Portfolio Manager</h2>
-        <h3 class="content_tt">It's awesome. And it's FREE!</h3>
-        <p>
-            <a href="signup.html" class="btn big highlight_bg high_dark_text">Sign Up for free</a>
-        </p>
-        <img src="images/banner.png" alt="">
-    </section>
-    <main class="container">
-        <section class="features content_pd">
-            <h2 class="hidden">features</h2>
-            <ul class="feature_list cf">
-                <li>
-                    <div class="icon"><i class="fa-solid fa-user"></i></div>
-                    <h3>This is a feature title</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                        maecenas a
-                    </p>
-                </li>
-                <li>
-                    <div class="icon"><i class="fa-solid fa-list"></i></div>
-                    <h3>This is a feature title</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                        maecenas a
-                    </p>
-                </li>
-                <li>
-                    <div class="icon"><i class="fa-solid fa-star"></i></div>
-                    <h3>This is a feature title</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                        maecenas a
-                    </p>
-                </li>
-            </ul>
-        </section>
+    <header class="inner-pd">
+        <h1><a href="">Quill</a></h1>
+        <h2>Quill is an incredible product with an awesome description.</h2>
         <hr>
-        <section class="testimonial content_pd slider_wrapper">
-            <h2 class="hidden">testimonial</h2>
-            <ul class="slides">
-                <li>
-                    <blockquote>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                        </p>
-                        <small>Adi, Designer</small>
-                    </blockquote>
-                </li>
-                <li>
-                    <blockquote>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                        </p>
-                        <small>Adi, Designer</small>
-                    </blockquote>
-                </li>
-                <li>
-                    <blockquote>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                        </p>
-                        <small>Adi, Designer</small>
-                    </blockquote>
-                </li>
-            </ul>
-            <a href="" class="prev"><i class="fa-solid fa-chevron-left"></i></a>
-            <a href="" class="next"><i class="fa-solid fa-chevron-right"></i></a>
-        </section>
-    </main>
-    <footer>
-        <div class="cta content_pd">
-            <h2 class="content_tt">Create your free account.</h2>
-            <p class="content_desc">No hidden fees, no credit card required.</p>
-            <a href="signup.html" class="btn big highlight_bg high_dark_text">Sign Up for free</a>
-        </div>
-        <div class="copyright content_pd">
+        <p>
+            As you can see, it’s <em>not quite ready yet</em>, but you can sign up below to be notified of our launch. We’ll even throw in a <em>freebie</em> :) 
+        </p>
+    </header>
+    <section class="form inner-pd">
+        <h2 class="hidden">form</h2>
+        <form action="#" method="post" id="form">
             <p>
-                (c) 2014. All rights reserved.
+                <label for="username" class="hidden">username</label>
+                <input type="text" id="username" placeholder="name">
+            </p>
+            <p>                
+                <label for="useremail" class="hidden">useremail</label>
+                <input type="text" id="useremail" placeholder="email address">
             </p>
             <p>
-                Questions? Email us at <a href="mailto:office@product.com"
-                    class="link highlight-color">office@product.com</a>
+                * I won’t send you any spam emails, scout’s honor!
             </p>
+            <input type="submit" value="get notified">
+        </form>
+    </section>
+    <section class="progress container inner-pd">
+        <h3 class="section-tt">Status Report</h3>
+        <div class="status-box">
+            <div class="bullon"></div>
+            <div class="status-desc">
+                <h4>45%</h4>
+                <p>
+                   Just finished the blog design, not I’m designing the portfolio pages.
+                </p>
+            </div>
         </div>
-    </footer>
-</body>
+    </section>
 
+    
+
+    <section class="freebie container inner-pd">
+        <h3 class="section-tt">Did I Hear... Freebie?</h3>
+        <p>
+            Yes you did. We’ll give a free landing page template to everyone who signs up using the form at the <a href="#form">top</a>.
+        </p>
+        <img src="images/freebie.png" alt="">
+    </section>
+    <footer class="inner-pd">
+        <p>You can get in touch by sending us an <a href="mailto:master@quill.com">email</a> or via social networks.</p>
+        <p>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        </p>
+        <p class="copyright">
+            &copy; Quill 2020.
+        </p>
+    </footer>
+    <a href="" class="btt">
+        <i class="fa-solid fa-arrow-up"></i>    
+    </a>
+    
+</body>
 </html>
